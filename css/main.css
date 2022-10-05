@@ -1,0 +1,21 @@
+.menu-checkbox, 
+.menu {
+  display: none;
+}
+
+.menu-toggle img {
+  height: 50px;
+  width: auto;
+}
+
+.menu a {
+  display: block;
+}
+
+.menu-checkbox:checked + .menu {
+  display: block;
+}
+
+.menu {
+  font-size: 20px;;
+}
